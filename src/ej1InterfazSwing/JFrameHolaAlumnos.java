@@ -4,6 +4,8 @@
  */
 package ej1InterfazSwing;
 
+import java.awt.Color;
+
 /**
  *
  * @author DAM2Alu5
@@ -26,21 +28,72 @@ public class JFrameHolaAlumnos extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jButtonAceptar = new javax.swing.JButton();
+        jButtonAceptar2 = new javax.swing.JButton();
+        jButtonAceptar3 = new javax.swing.JButton();
+        jButtonAceptar1 = new javax.swing.JButton();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(0, 204, 204));
+        setBounds(new java.awt.Rectangle(0, 0, 500, 500));
+        setPreferredSize(new java.awt.Dimension(500, 500));
+        setResizable(false);
+        getContentPane().setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 10, 10));
+
+        jButtonAceptar.setText("Aceptar");
+        jButtonAceptar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonAceptarActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButtonAceptar);
+
+        jButtonAceptar2.setText("Aceptar");
+        jButtonAceptar2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonAceptar2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButtonAceptar2);
+
+        jButtonAceptar3.setText("Aceptar");
+        jButtonAceptar3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonAceptar3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButtonAceptar3);
+
+        jButtonAceptar1.setText("Aceptar");
+        jButtonAceptar1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonAceptar1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButtonAceptar1);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButtonAceptar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAceptar1ActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_jButtonAceptar1ActionPerformed
+
+    private void jButtonAceptar3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAceptar3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonAceptar3ActionPerformed
+
+    private void jButtonAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAceptarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonAceptarActionPerformed
+
+    private void jButtonAceptar2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAceptar2ActionPerformed
+        // TODO add your handling code here:
+        jButtonAceptar2.setBackground(Color.red);
+
+        jButtonAceptar2.setBackground(Color.green);
+    }//GEN-LAST:event_jButtonAceptar2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -78,5 +131,9 @@ public class JFrameHolaAlumnos extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButtonAceptar;
+    private javax.swing.JButton jButtonAceptar1;
+    private javax.swing.JButton jButtonAceptar2;
+    private javax.swing.JButton jButtonAceptar3;
     // End of variables declaration//GEN-END:variables
 }

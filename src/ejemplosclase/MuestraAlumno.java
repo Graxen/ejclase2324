@@ -4,6 +4,9 @@
  */
 package ejemplosclase;
 
+import ej1InterfazSwing.JFrameHolaAlumnos;
+import javax.swing.JFrame;
+
 /**
  *
  * @author DAM2Alu5
@@ -14,5 +17,8 @@ public class MuestraAlumno {
          Alumno alu1 = new Alumno("Juan", "Perez", 2);
         System.out.println(alu1.mayorEdad());
         System.out.println(alu1.rangoEdad());
+        
+  
+       
     }
 }
