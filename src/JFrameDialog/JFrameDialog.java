@@ -12,6 +12,10 @@ import javax.swing.JFrame;
  * @author DAM2Alu5
  */
 public class JFrameDialog extends javax.swing.JFrame {
+
+    public static void NewJDialog(String string) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 NewJDialog jdn = new NewJDialog(this, rootPaneCheckingEnabled);
     /**
      * Creates new form JFrameHolaAlumnos
