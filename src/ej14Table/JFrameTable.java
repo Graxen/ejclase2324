@@ -15,7 +15,7 @@ public class JFrameTable extends javax.swing.JFrame {
     /**
      * Creates new form JFrameTable
      */
-    DefaultTableModel dtm;
+        DefaultTableModel dtm;
     public JFrameTable() {
         initComponents();
         dtm=new DefaultTableModel();
